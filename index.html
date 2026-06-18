@@ -1,0 +1,938 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DollyPee Graphics — Premium Graphic Design Studio</title>
+    <meta
+      name="description"
+      content="DollyPee Graphics is a premium creative design studio specialising in logo design, brand identity, social media graphics, and marketing materials."
+    />
+    <meta
+      property="og:title"
+      content="DollyPee Graphics — Premium Graphic Design Studio"
+    />
+    <meta
+      property="og:description"
+      content="Professional graphic design solutions that help brands stand out, attract customers, and leave lasting impressions."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+    <!-- ── NAVBAR ── -->
+    <nav
+      class="navbar"
+      id="navbar"
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <div class="container nav-inner">
+        <a href="#home" class="nav-logo" aria-label="DollyPee Graphics Home">
+          <img src="Images/My Logo (1).png" alt="">
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div style="display: flex; align-items: center; gap: 6px">
+          <button
+            class="theme-btn"
+            id="themeBtn"
+            aria-label="Toggle dark/light mode"
+          >
+            🌙
+          </button>
+          <a
+            href="#contact"
+            class="btn btn-primary nav-cta"
+            style="padding: 10px 20px; font-size: 0.82rem"
+            >Let's Work Together</a
+          >
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div
+      class="mobile-menu"
+      id="mobileMenu"
+      role="navigation"
+      aria-label="Mobile navigation"
+    >
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a
+        href="#contact"
+        class="btn btn-primary"
+        style="margin-top: 12px; justify-content: center"
+        >Let's Work Together</a
+      >
+    </div>
+
+    <!-- ── HERO ── -->
+    <section id="home" aria-label="Hero section">
+      <div class="grid-bg" aria-hidden="true"></div>
+      <div class="hero-blobs" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+      </div>
+      <div
+        class="container"
+        style="
+          position: relative;
+          z-index: 1;
+          display: grid;
+          grid-template-columns: 1fr auto;
+          align-items: center;
+          gap: 40px;
+          padding-top: 40px;
+          padding-bottom: 80px;
+        "
+      >
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="dot" aria-hidden="true"></span>
+            Available for New Projects
+          </div>
+          <h1 class="hero-title">
+            Transforming Ideas<br />Into <span class="grad-text">Stunning</span
+            ><br />Visual Designs
+          </h1>
+          <p class="hero-sub">
+            Professional graphic design solutions that help brands stand out,
+            attract customers, and leave lasting impressions.
+          </p>
+          <div class="hero-btns">
+            <a href="#portfolio" class="btn btn-primary">
+              <span>View Portfolio</span>
+              <span aria-hidden="true">→</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+          </div>
+          <div class="hero-stats" role="list">
+            <div class="hero-stat" role="listitem">
+              <div class="hero-stat-num" data-count="4">0</div>
+              <div class="hero-stat-label">Years Experience</div>
+            </div>
+            <div class="hero-stat" role="listitem">
+              <div class="hero-stat-num" data-count="99">0</div>
+              <div class="hero-stat-label">Projects Completed</div>
+            </div>
+            <div class="hero-stat" role="listitem">
+              <div class="hero-stat-num" data-count="40">0</div>
+              <div class="hero-stat-label">Happy Clients</div>
+            </div>
+            <div class="hero-stat" role="listitem">
+              <div class="hero-stat-num" data-count="35">0</div>
+              <div class="hero-stat-label">% Client Retention</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-floaters" aria-hidden="true">
+          <div class="hero-main-visual">
+            <div class="visual-inner">🎨</div>
+          </div>
+          <div class="float-card float-card-1">
+            <div class="float-card-icon">✨</div>
+            <div class="float-card-title">Award Winning</div>
+            <div class="float-card-sub">Design Excellence 2024</div>
+          </div>
+          <div class="float-card float-card-2">
+            <div class="float-card-icon">🚀</div>
+            <div class="float-card-title">Fast Delivery</div>
+            <div class="float-card-sub">48h turnaround</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" aria-label="About DollyPee Graphics">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual reveal-left">
+            <div class="about-img" aria-hidden="true">
+              <span style="position: relative; z-index: 1; font-size: 5rem"
+                >🎯</span
+              >
+            </div>
+            <div class="about-badge-float" aria-hidden="true">
+              <span class="big">★ 4.9</span>
+              <span class="small">Client Rating</span>
+            </div>
+          </div>
+          <div class="reveal-right">
+            <span class="section-tag">Our Story</span>
+            <h2 class="section-title">
+              About <span class="grad-text">DollyPee Graphics</span>
+            </h2>
+            <p class="section-sub" style="margin-bottom: 20px">
+              DollyPee Graphics is a creative design studio dedicated to helping
+              businesses, entrepreneurs, and brands communicate visually through
+              exceptional design.
+            </p>
+            <p
+              style="font-size: 0.93rem; color: var(--text2); line-height: 1.8"
+            >
+              We combine creativity, strategy, and modern design principles to
+              create visuals that capture attention and drive results. Every
+              project is crafted with precision, passion, and a deep
+              understanding of your brand's unique identity.
+            </p>
+            <div class="about-stats" role="list">
+              <div class="stat-card reveal" role="listitem">
+                <div class="stat-num">
+                  <span class="counter" data-target="4">0</span>+
+                </div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div
+                class="stat-card reveal"
+                style="transition-delay: 0.1s"
+                role="listitem"
+              >
+                <div class="stat-num">
+                  <span class="counter" data-target="99">0</span>+
+                </div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div
+                class="stat-card reveal"
+                style="transition-delay: 0.2s"
+                role="listitem"
+              >
+                <div class="stat-num">
+                  <span class="counter" data-target="40">0</span>+
+                </div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div
+                class="stat-card reveal"
+                style="transition-delay: 0.3s"
+                role="listitem"
+              >
+                <div class="stat-num">
+                  <span class="counter" data-target="35">0</span>%
+                </div>
+                <div class="stat-label">Client Retention</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVICES ── -->
+    <section id="services" aria-label="Our Services">
+      <div class="container">
+        <div style="text-align: center" class="reveal">
+          <span class="section-tag">What We Do</span>
+          <h2 class="section-title">
+            Premium Design <span class="grad-text">Services</span>
+          </h2>
+          <p class="section-sub" style="margin: 0 auto">
+            From brand identity to social media, we craft every pixel with
+            purpose and precision.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal" style="transition-delay: 0.05s">
+            <div class="service-icon" aria-hidden="true">🎨</div>
+            <h3 class="service-title">Logo Design</h3>
+            <p class="service-desc">
+              Iconic logos that capture your brand's essence and leave a lasting
+              impression.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.1s">
+            <div class="service-icon" aria-hidden="true">💼</div>
+            <h3 class="service-title">Brand Identity</h3>
+            <p class="service-desc">
+              Complete brand systems — colour palettes, typography, guidelines,
+              and more.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.15s">
+            <div class="service-icon" aria-hidden="true">📱</div>
+            <h3 class="service-title">Social Media Graphics</h3>
+            <p class="service-desc">
+              Eye-catching posts and stories that drive engagement and grow your
+              audience.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.2s">
+            <div class="service-icon" aria-hidden="true">📄</div>
+            <h3 class="service-title">Flyer Design</h3>
+            <p class="service-desc">
+              Stunning flyers for events, promotions, and campaigns that demand
+              attention.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.25s">
+            <div class="service-icon" aria-hidden="true">🖼️</div>
+            <h3 class="service-title">Banner Design</h3>
+            <p class="service-desc">
+              Digital and print banners that communicate your message boldly and
+              clearly.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.3s">
+            <div class="service-icon" aria-hidden="true">📦</div>
+            <h3 class="service-title">Packaging Design</h3>
+            <p class="service-desc">
+              Product packaging that stands out on shelves and tells your brand
+              story.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.35s">
+            <div class="service-icon" aria-hidden="true">🎪</div>
+            <h3 class="service-title">Event Graphics</h3>
+            <p class="service-desc">
+              From invitations to backdrops — cohesive event visuals that
+              impress.
+            </p>
+          </div>
+          <div class="service-card reveal" style="transition-delay: 0.4s">
+            <div class="service-icon" aria-hidden="true">📊</div>
+            <h3 class="service-title">Marketing Materials</h3>
+            <p class="service-desc">
+              Brochures, catalogues, and print collateral crafted for maximum
+              impact.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PORTFOLIO ── -->
+    <section id="portfolio" aria-label="Portfolio">
+      <div class="container">
+        <div style="text-align: center" class="reveal">
+          <span class="section-tag">Our Work</span>
+          <h2 class="section-title">
+            Recent <span class="grad-text">Projects</span>
+          </h2>
+          <p class="section-sub" style="margin: 0 auto">
+            A selection of our finest work across industries and design
+            disciplines.
+          </p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Portfolio filter">
+          <button class="filter-btn active" data-filter="all">All Work</button>
+          <button class="filter-btn" data-filter="logos">Logos</button>
+          <button class="filter-btn" data-filter="flyers">Flyers</button>
+          <button class="filter-btn" data-filter="social">Social Media</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="banners">Banners</button>
+          <button class="filter-btn" data-filter="print">Print Design</button>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Generated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESS ── -->
+    <section id="process" aria-label="Our Process">
+      <div class="container">
+        <div style="text-align: center" class="reveal">
+          <span class="section-tag">How We Work</span>
+          <h2 class="section-title">
+            Our Creative <span class="grad-text">Process</span>
+          </h2>
+          <p class="section-sub" style="margin: 0 auto">
+            A proven workflow that ensures every project is delivered with
+            excellence.
+          </p>
+        </div>
+        <div class="process-timeline" role="list">
+          <div
+            class="process-step reveal"
+            style="transition-delay: 0.05s"
+            role="listitem"
+          >
+            <div class="process-num"><span>01</span></div>
+            <h3 class="process-title">Discovery</h3>
+            <p class="process-desc">
+              We dive deep into understanding your goals, audience, and vision
+              to align our creative direction.
+            </p>
+          </div>
+          <div
+            class="process-step reveal"
+            style="transition-delay: 0.15s"
+            role="listitem"
+          >
+            <div class="process-num"><span>02</span></div>
+            <h3 class="process-title">Concept Creation</h3>
+            <p class="process-desc">
+              Brainstorming and strategic thinking to develop multiple creative
+              concepts for your review.
+            </p>
+          </div>
+          <div
+            class="process-step reveal"
+            style="transition-delay: 0.25s"
+            role="listitem"
+          >
+            <div class="process-num"><span>03</span></div>
+            <h3 class="process-title">Design Development</h3>
+            <p class="process-desc">
+              Crafting polished, pixel-perfect visuals refined through
+              collaborative feedback and iteration.
+            </p>
+          </div>
+          <div
+            class="process-step reveal"
+            style="transition-delay: 0.35s"
+            role="listitem"
+          >
+            <div class="process-num"><span>04</span></div>
+            <h3 class="process-title">Delivery</h3>
+            <p class="process-desc">
+              Final files in all required formats, with ongoing support to
+              ensure perfect implementation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" aria-label="Skills">
+      <div class="container">
+        <div class="about-grid" style="align-items: start">
+          <div class="reveal-left">
+            <span class="section-tag">Expertise</span>
+            <h2 class="section-title">
+              Our Design <span class="grad-text">Skills</span>
+            </h2>
+            <p class="section-sub">
+              Mastery of industry-leading tools and design disciplines, built
+              over years of professional practice.
+            </p>
+            <div
+              style="
+                margin-top: 32px;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 12px;
+                  padding: 14px 18px;
+                  background: var(--surface);
+                  border: 1px solid var(--border2);
+                  border-radius: var(--radius-sm);
+                "
+              >
+                <span style="font-size: 1.4rem">🏆</span>
+                <div>
+                  <div
+                    style="
+                      font-family: var(--font-display);
+                      font-size: 0.88rem;
+                      font-weight: 700;
+                    "
+                  >
+                    Certified Adobe Expert
+                  </div>
+                  <div style="font-size: 0.8rem; color: var(--text3)">
+                    Photoshop & Illustrator certified
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 12px;
+                  padding: 14px 18px;
+                  background: var(--surface);
+                  border: 1px solid var(--border2);
+                  border-radius: var(--radius-sm);
+                "
+              >
+                <span style="font-size: 1.4rem">⚡</span>
+                <div>
+                  <div
+                    style="
+                      font-family: var(--font-display);
+                      font-size: 0.88rem;
+                      font-weight: 700;
+                    "
+                  >
+                    Fast Turnaround
+                  </div>
+                  <div style="font-size: 0.8rem; color: var(--text3)">
+                    48-hour delivery on most projects
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-grid" id="skillsGrid">
+            <!-- Generated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section id="testimonials" aria-label="Client Testimonials">
+      <div class="container">
+        <div style="text-align: center" class="reveal">
+          <span class="section-tag">Client Love</span>
+          <h2 class="section-title">
+            What Clients <span class="grad-text">Say</span>
+          </h2>
+          <p class="section-sub" style="margin: 0 auto">
+            Don't take our word for it — hear from the brands we've helped grow.
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testi-card reveal" style="transition-delay: 0.1s">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p class="testi-text">
+              "DollyPee Graphics completely transformed our brand identity. The
+              attention to detail and creative vision was exceptional. Our new
+              logo has received endless compliments. Highly recommended!"
+            </p>
+            <div class="testi-author">
+              <div class="author-avatar av-1" aria-label="Eniola O.">EO</div>
+              <div>
+                <div class="author-name">Eniola Olusola</div>
+                <div class="author-co">CEO, EE Luxe.</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card reveal" style="transition-delay: 0.2s">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p class="testi-text">
+              "Fast delivery, excellent communication, and truly amazing
+              designs. The social media graphics created for us increased our
+              engagement by over 200%. We couldn't be happier with the results."
+            </p>
+            <div class="testi-author">
+              <div class="author-avatar av-2" aria-label="Simi O.">SO</div>
+              <div>
+                <div class="author-name">Simi Okafor</div>
+                <div class="author-co">Marketing Director, Mibes Logistics</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card reveal" style="transition-delay: 0.3s">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p class="testi-text">
+              "Our social media engagement improved significantly after using
+              their designs. Every piece felt crafted with purpose. The team
+              understood our brand voice instantly. Absolutely phenomenal work!"
+            </p>
+            <div class="testi-author">
+              <div class="author-avatar av-3" aria-label="Laneeks B.">LB</div>
+              <div>
+                <div class="author-name">Laneeks Brand</div>
+                <div class="author-co">Founder, Laneeks Brand</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PRICING ── -->
+    <section id="pricing" aria-label="Pricing Plans">
+      <div class="container">
+        <div style="text-align: center" class="reveal">
+          <span class="section-tag">Investment</span>
+          <h2 class="section-title">
+            Transparent <span class="grad-text">Pricing</span>
+          </h2>
+          <p class="section-sub" style="margin: 0 auto">
+            Flexible packages designed to fit every stage of your business
+            journey.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card reveal" style="transition-delay: 0.1s">
+            <div class="pricing-tier">Starter</div>
+            <div class="pricing-title">Basic</div>
+            <div class="pricing-desc">Perfect for startups and new brands.</div>
+            <div class="pricing-price">$49</div>
+            <div class="pricing-price-note">One-time project fee</div>
+            <div class="pricing-divider"></div>
+            <ul class="pricing-features">
+              <li>1 Logo Concept</li>
+              <li>3 Revisions</li>
+              <li>PNG & JPG Files</li>
+              <li>72-hour Delivery</li>
+              <li>Source File</li>
+              <li class="no">Brand Style Guide</li>
+              <li class="no">Social Media Kit</li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn btn-outline"
+              style="width: 100%; justify-content: center"
+              >Get Started</a
+            >
+          </div>
+          <div
+            class="pricing-card featured reveal"
+            style="transition-delay: 0.2s"
+          >
+            <span class="popular-badge">Most Popular</span>
+            <div class="pricing-tier">Growth</div>
+            <div class="pricing-title">Professional</div>
+            <div class="pricing-desc">
+              Ideal for growing businesses ready to scale.
+            </div>
+            <div class="pricing-price">$99</div>
+            <div class="pricing-price-note">One-time project fee</div>
+            <div class="pricing-divider"></div>
+            <ul class="pricing-features">
+              <li>3 Logo Concepts</li>
+              <li>Unlimited Revisions</li>
+              <li>All File Formats</li>
+              <li>48-hour Delivery</li>
+              <li>Source File Included</li>
+              <li>Brand Style Guide</li>
+              <li>Social Media Kit</li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn btn-primary"
+              style="width: 100%; justify-content: center"
+              >Get Started</a
+            >
+          </div>
+          <div class="pricing-card reveal" style="transition-delay: 0.3s">
+            <div class="pricing-tier">Enterprise</div>
+            <div class="pricing-title">Premium</div>
+            <div class="pricing-desc">
+              Full-scale branding for established brands.
+            </div>
+            <div class="pricing-price">$149</div>
+            <div class="pricing-price-note">Complete brand package</div>
+            <div class="pricing-divider"></div>
+            <ul class="pricing-features">
+              <li>5+ Logo Concepts</li>
+              <li>Unlimited Revisions</li>
+              <li>All File Formats</li>
+              <li>24-hour Rush Available</li>
+              <li>Source Files Included</li>
+              <li>Complete Brand System</li>
+              <li>Social Media + Print Kit</li>
+            </ul>
+            <a
+              href="#contact"
+              class="btn btn-outline"
+              style="width: 100%; justify-content: center"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" aria-label="Contact Us">
+      <div class="container">
+        <div style="text-align: center" class="reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">
+            Let's Create <span class="grad-text">Something</span> Great
+          </h2>
+          <p class="section-sub" style="margin: 0 auto">
+            Ready to elevate your brand? Drop us a message and we'll get back to
+            you within 24 hours.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="reveal-left">
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/meewbork" method="POST" novalidate>
+              <div class="form-row">
+                <div class="form-field">
+                  <label class="form-label" for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Your name"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+                <div class="form-field">
+                  <label class="form-label" for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="your@email.com"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-input"
+                  placeholder="+1 (555) 000-0000"
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="message"
+                  >Project Description</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="Tell us about your project — what do you need, your timeline, and any other details..."
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <div class="form-success" id="formSuccess" role="alert">
+                ✅ Message sent! We'll get back to you within 24 hours.
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="align-self: flex-start"
+              >
+                Send Message <span aria-hidden="true">→</span>
+              </button>
+            </form>
+          </div>
+          <div class="contact-info reveal-right">
+            <h3 class="contact-info-title">Find Us On</h3>
+            <p class="contact-info-desc">
+              Connect with us on your preferred platform. We typically respond
+              within a few hours.
+            </p>
+            <a
+              href="https://wa.me/9071627407"
+              class="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp us"
+            >
+              <div class="contact-link-icon ci-wa" aria-hidden="true">💬</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">WhatsApp</div>
+                <div class="contact-link-val">(+234) 907-162-7407</div>
+              </div>
+            </a>
+            <a
+              href="mailto:precimyte1122@gmail.com"
+              class="contact-link"
+              aria-label="Email us"
+            >
+              <div class="contact-link-icon ci-em" aria-hidden="true">✉️</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">Email</div>
+                <div class="contact-link-val">precimyte1122@gmail.com</div>
+              </div>
+            </a>
+            <a
+              href="https://www.instagram.com/dolly_pee37?igsh=MTQ5YnJ3amRhZ3B1dg=="
+              class="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow us on Instagram"
+            >
+              <div class="contact-link-icon ci-ig" aria-hidden="true">📸</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">Instagram</div>
+                <div class="contact-link-val">@dolly_pee37</div>
+              </div>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100083738865467"
+              class="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our Facebook page"
+            >
+              <div class="contact-link-icon ci-fb" aria-hidden="true">👍</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">Facebook</div>
+                <div class="contact-link-val">/Dolly Pee</div>
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/akele-ayokanmi"
+              class="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Connect on LinkedIn"
+            >
+              <div class="contact-link-icon ci-li" aria-hidden="true">💼</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-val">/company/dollypaegraphics</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer role="contentinfo">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-logo">
+              <img src="Images/My Logo (1).png" alt="">
+            </div>
+            <p class="footer-desc">
+              Premium graphic design studio crafting visual identities that
+              captivate, communicate, and convert.
+            </p>
+            <div
+              class="footer-socials"
+              role="list"
+              aria-label="Social media links"
+            >
+              <a
+                href="https://instagram.com/dollypaegraphics"
+                class="soc-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                aria-label="Instagram"
+                >📸</a
+              >
+              <a
+                href="https://facebook.com/dollypaegraphics"
+                class="soc-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                aria-label="Facebook"
+                >👍</a
+              >
+              <a
+                href="https://linkedin.com/company/dollypaegraphics"
+                class="soc-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                aria-label="LinkedIn"
+                >💼</a
+              >
+              <a
+                href="https://behance.net/dollypaegraphics"
+                class="soc-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                aria-label="Behance"
+                >🎨</a
+              >
+              <a
+                href="https://wa.me/1234567890"
+                class="soc-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                aria-label="WhatsApp"
+                >💬</a
+              >
+            </div>
+          </div>
+          <div>
+            <div class="footer-col-title">Quick Links</div>
+            <ul class="footer-links" role="list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-col-title">Services</div>
+            <ul class="footer-links" role="list">
+              <li><a href="#services">Logo Design</a></li>
+              <li><a href="#services">Brand Identity</a></li>
+              <li><a href="#services">Social Media</a></li>
+              <li><a href="#services">Packaging</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 <b>DollyPee Graphics</b>. All Rights Reserved.</span>
+          <span>Designed with ❤️ for brands that mean business.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ── LIGHTBOX ── -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Portfolio item preview"
+    >
+      <button
+        class="lightbox-close"
+        id="lightboxClose"
+        aria-label="Close preview"
+      >
+        ✕
+      </button>
+      <div class="lightbox-content" id="lightboxContent">
+        <div class="lightbox-thumb" id="lbThumb"></div>
+        <div class="lightbox-info">
+          <div class="lightbox-cat" id="lbCat"></div>
+          <div class="lightbox-title" id="lbTitle"></div>
+          <div class="lightbox-desc" id="lbDesc"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
