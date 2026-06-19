@@ -108,7 +108,7 @@ const portfolioData = [
   {
     id: 16,
     cat: "print",
-    img: "Images/card.png",
+    img: "Images/business-card.png",
     title: "Craft Business Card",
     desc: "Elegant Business Card design for EE Luxe Brand.",
   },
